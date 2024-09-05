@@ -1,0 +1,15 @@
+test01 브랜치에서 작업하는 중
+
+1. 새 브랜치 작성
+git branch test01
+2. 브랜치 이동
+git switch test01
+3. 코드작성, add, commit
+4. push
+git push origin test01(push 할 브랜치명)
+5. 브랜치 삭제
+-로컬
+git switch main
+git branch -d test01
+-리모트
+git push origin --delete test01
